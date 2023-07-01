@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --font1:'Roboto', sans-serif;;
+    --main-bg-color: rgb(201, 131, 131);
+}
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+    max-width:70vw;
+}
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    font-family: var(--font1);
+    font-family: var(--font1);
+    padding: 2px 7px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 8px;
+}
+.btn{
+    padding: 2px 11px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color:var(--main-bg-color);
+}
+.my-12{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  font-family: var(--font1);
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+  padding: 8px 0px;
+  margin: 10px auto;
+}
+.footer {
+  height: 40px;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  color: white;
+  /* background-color: green; */
+}
+.nav-left {
+  display: flex;
+}
+.nav-left ul {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0px 14px;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.nav-left ul li a:hover {
+  color:var(--main-bg-color);
+}
+.content {
+  display: flex;
+  /* background-color: rgb(243, 217, 217); */
+  position: relative;
+}
+.content::after{
+  content: "";
+  background: url('../bg2.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 43vh;
+  width: 82vw;
+  opacity: 0.4;
+  z-index: -1;
+  border-radius: 10px;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* margin: 0 5px; */
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-family: var(--font1);
+  padding: 0px 25px;
+  z-index: 1;
+}
+.content-right img {
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 124px;
+}
+.home-articles{
+/* height: 390px; */
+background: rgb(240, 232, 232);
+position: relative;
+}
+
+.home-article{
+  display: flex;
+  align-items: center;
+  margin: 25px 0px;
+}
+.article-img img{
+  height: 156px;
+  width: 166px;
+  margin: 8px 0px;
+  padding: 0px 20px;
+}
+.article-content{
+  padding: 0px 12px;
+}
+.article-content a{
+  text-decoration: none;
+  color: black;
+}
+.home-articles h2{
+  padding: 10px 12px;
+}
+.year-box {
+  position: absolute;
+  /* background-color: red; */
+  right: 109px;
+  top: 100px;
+  font-size: 18px;
+}
+.year-box input {
+margin: 6px 0px;
+}
+.logo{
+  margin: 0px 5px;
+}

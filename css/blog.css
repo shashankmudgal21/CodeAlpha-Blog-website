@@ -1,0 +1,40 @@
+.img_post img{
+    height: 58vh;
+    width: 100%;
+    margin-top: -54px;
+}
+.img_post{
+    height: 244px;
+    overflow: hidden;
+}
+.blog-post-content{
+    font-family: var(--font1);
+    font-size: 15px;
+}
+.blog-post-content h1{
+text-align: center;
+}
+.blog-post-content p{
+margin: 13px 0px;
+padding: 10px 5px;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.more-post{
+    flex-direction: column;
+}
+.blog-meta{
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    margin: 14px 0px;
+}
+.author-info div{
+    margin: 4px 0px;
+    padding: 3px 5px;
+}
+.social{
+    margin: 0px 15px;
+}

@@ -1,0 +1,47 @@
+@media screen  and (max-width:1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        margin: 3px auto;
+    }
+    .nav-left div{
+        margin: 6px auto;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        text-align: center;
+    }
+    .year-box{
+    right: 17px;
+    top: 43px;
+    font-size: 15px;
+    display: flex;
+    }
+    .year-box div{
+    margin: 0px;
+    padding: 0px 3px;
+    display: flex;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .social{
+        margin: 0px -30px;
+    }
+    .author-info{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:402px){
+    /* .nav-left ul{
+        font-size: 10px;;
+    } */
+
+}
